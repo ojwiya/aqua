@@ -1,5 +1,5 @@
 
-FROM node:8.0
+FROM node:6.4
 
 RUN mkdir -p /usr/src/app
 
