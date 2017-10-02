@@ -44,7 +44,15 @@
     "redux": "3.x.x",
     "slug": "0.9.x",
     "vision": "4.x.x",
-    "visionary": "6.x.x"
+    "visionary": "6.x.x",
+    "gulp": "3.x.x",
+    "gulp-concat": "2.x.x",
+    "gulp-less": "3.x.x",
+    "gulp-newer": "1.x.x",
+    "gulp-nodemon": "2.x.x",
+    "gulp-rename": "1.x.x",
+    "gulp-sourcemaps": "2.x.x",
+    "gulp-util": "3.x.x"
   },
   "devDependencies": {
     "babel-core": "6.x.x",
