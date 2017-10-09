@@ -1,5 +1,5 @@
 
-FROM node:6.4
+FROM node:8.0
 
 RUN mkdir -p /usr/src/app
 
@@ -7,7 +7,7 @@ WORKDIR /usr/src/app
 
 COPY . /usr/src/app
 
-ENV NODE_ENV=production
+ENV NODE_ENV=development
 
 RUN npm install
 
