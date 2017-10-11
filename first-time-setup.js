@@ -9,7 +9,7 @@ Async.auto({
     mongodbUri: (done) => {
 
         const options = {
-            default: 'mongodb://localhost:27017/aqua'
+            default: 'mongodb://mvp-motix-mongo-dev.5bd45434.svc.dockerapp.io:37017/motix-membership'
         };
 
         Promptly.prompt(`MongoDB URI: (${options.default})`, options, done);

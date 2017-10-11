@@ -12,7 +12,7 @@ const criteria = {
 
 const config = {
     $meta: 'This file configures the plot device.',
-    projectName: 'Aqua',
+    projectName: 'Motix Membership',
     port: {
         web: {
             $filter: 'env',
@@ -41,29 +41,29 @@ const config = {
             uri: {
                 $filter: 'env',
                 production: process.env.MONGODB_URI,
-                test: 'mongodb://localhost:27017/aqua-test',
-                $default: 'mongodb://localhost:27017/aqua'
+                test: 'mongodb://mvp-motix-mongo-dev.5bd45434.svc.dockerapp.io:37017/aqua-test',
+                $default: 'mongodb://mvp-motix-mongo-dev.5bd45434.svc.dockerapp.io:37017/motix-membership'
             }
         },
         autoIndex: true
     },
     nodemailer: {
-        host: 'smtp.gmail.com',
+        host: 'smtp.yahoo.com',
         port: 465,
         secure: true,
         auth: {
-            user: 'jedireza@gmail.com',
+            user: 'motixsmtp@yahoo.com',
             pass: process.env.SMTP_PASSWORD
         }
     },
     system: {
         fromAddress: {
-            name: 'Aqua',
-            address: 'jedireza@gmail.com'
+            name: 'Motix Accounts',
+            address: 'motixaccounts@yahoo.com'
         },
         toAddress: {
-            name: 'Aqua',
-            address: 'jedireza@gmail.com'
+            name: 'Motix Accounts',
+            address: 'jotixaccounts@yahoo.com'
         }
     }
 };
