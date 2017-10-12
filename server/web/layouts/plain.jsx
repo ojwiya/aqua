@@ -16,10 +16,10 @@ class PlainLayout extends React.Component {
         return (
             <html>
                 <head>
-                    <title>{this.props.title}</title>
+                    <title>Motix</title>
                     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                     <link rel="stylesheet" href="/public/core.min.css" />
-                    <link rel="shortcut icon" href="/public/media/favicon.ico" />
+                    <link rel="shortcut icon" href="/public/media/favicon1.ico" />
                     {this.props.neck}
                 </head>
                 <body>
