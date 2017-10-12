@@ -48,7 +48,7 @@ const config = {
         autoIndex: true
     },
     nodemailer: {
-        host: 'smtp.yahoo.com',
+        host: 'smtp.mail.yahoo.com',
         port: 465,
         secure: true,
         auth: {
