@@ -16,7 +16,7 @@ class HomePage extends React.Component {
                 activeTab="home">
 
                 <div className="jumbotron">
-                    <h1>Success</h1>
+                    <h1>The Security Demo</h1>
                     <div>
                         <p className="lead">Your Node.js website and user system is running. (v{Package.version})</p>
                         <div>
@@ -34,7 +34,7 @@ class HomePage extends React.Component {
                     <div className="col-sm-4">
                         <div className="panel panel-default">
                             <div className="panel-body">
-                                <h3>About us</h3>
+                                <h3>Learn More</h3>
                                 <p>
                                     At vero eos et accusamus et iusto odio
                                     dignissimos ducimus qui blanditiis

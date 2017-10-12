@@ -63,7 +63,7 @@ const config = {
         },
         toAddress: {
             name: 'Motix Accounts',
-            address: 'jotixaccounts@yahoo.com'
+            address: 'motixaccounts@yahoo.com'
         }
     }
 };
