@@ -112,9 +112,6 @@ class HomePage extends React.Component {
 
 <p><strong>Can I use groups with Accounts?</strong> Sure. Your project might benefit by extending Accounts with an AccountGroup model. For example, if I built a message board or wiki and I wanted some Accounts to moderate other Accounts or change site content... groups would be the perfect solution. It would be a huge overkill to create a new roll (and schema) for a Moderator, which is like an Account in every way, only differing by a permission.</p>
 
-<h2 id="thatsit">That's it</h2>
-
-<p>We hope this was helpful. If you have questions or think this page should be expanded please contribute by opening an issue or updating this page.</p>
                      
                     </div>
 
