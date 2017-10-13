@@ -6,6 +6,6 @@
 | Email:   | {{email}}   |
 | Message: | {{message}} |
 
-Love,
+Regards,
 
-The Plot Device
+The Motix Team

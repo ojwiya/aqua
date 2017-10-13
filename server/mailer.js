@@ -50,7 +50,8 @@ internals.sendEmail = function (options, template, context, callback) {
             from: Config.get('/system/fromAddress'),
             markdown: content
         });
-
+       
+       console.log('mailer.js-sendmail options',{config:Config.get('/nodemailer'),opt:options})
         internals.transport.sendMail(options, callback);
     });
 };

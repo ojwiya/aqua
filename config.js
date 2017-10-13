@@ -24,8 +24,8 @@ const config = {
     baseUrl: {
         $filter: 'env',
         $meta: 'values should not end in "/"',
-        production: 'https://getaqua.herokuapp.com',
-        $default: 'http://127.0.0.1:8000'
+        production: process.env.BASE_URL,
+        $default: process.env.BASE_URL
     },
     authAttempts: {
         forIp: 50,
@@ -59,7 +59,7 @@ const config = {
     system: {
         fromAddress: {
             name: 'Motix Accounts',
-            address: 'motixaccounts@yahoo.com'
+            address: 'motixsmtp@yahoo.com'
         },
         toAddress: {
             name: 'Motix Accounts',

@@ -6,6 +6,6 @@ need this key to do it.
 __Key:__  
 {{baseHref}}/{{email}}/{{key}}
 
-Love,
+Yours Sincerely,
 
-The Plot Device
+The Motix Team
