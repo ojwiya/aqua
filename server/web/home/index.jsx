@@ -34,13 +34,15 @@ class HomePage extends React.Component {
                     <div className="col-sm-4">
                         <div className="panel panel-default">
                             <div className="panel-body">
-                                <h3>Learn More</h3>
-                                <p>
-                                    At vero eos et accusamus et iusto odio
-                                    dignissimos ducimus qui blanditiis
-                                    praesentium voluptatum deleniti atque
-                                    corrupti.
-                                </p>
+                                <h3>Feaures</h3>
+                              
+  <h5>Login system with forgot password and reset password </h5><h5>
+Abusive login attempt detection </h5><h5>
+User roles for accounts and admins </h5><h5>
+Admins only notes and status history for accounts </h5><h5>
+Admin groups with shared permissions </h5><h5>
+Admin level permissions that override group permissions </h5>
+                               
                                 <a href="/about" className="btn btn-default btn-block">
                                     Learn more
                                 </a>
@@ -82,6 +84,7 @@ class HomePage extends React.Component {
 
 
          <div className="col-sm-12">
+         <h2>Guide </h2>
          <p>The goal of this page is to explain the connection between users, roles and groups.</p>
 
 <h3 id="users">Users</h3>
